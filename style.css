@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald&display=swap');
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+h1, h2 {
+  color: #DC0073;
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+  font-weight: 100;
+}
+
+img {
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+
+ul {
+  list-style: none;
+  color: white;
+  padding: 0;
+}
+
+a {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  color: white;
+}
+
+a:hover {
+  color: #DC0073;
+}
+
+.card {
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+#Passions {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  padding: auto;
+  margin: 40px auto;
+  border: 1px solid #DC0073;
+}
+
+#follow-me {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  padding: auto;
+  margin: 40px auto;
+  border: 1px solid #DC0073;
+}
+
+#follow-me ul li {
+  font-size: 35px;
+  display: inline;
+}
+
+p {
+  margin-top: 30px;
+}
+
+.btn-primary {
+  background-color: black;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  padding: 20px 20px 20px 20px;
+  margin: 20px auto;
+  border: none;
+  color: white;
+  text-align: center;
+}
+
+.btn-primary:hover {
+  border: 1px solid  #DC0073;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
